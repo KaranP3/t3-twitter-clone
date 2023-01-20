@@ -47,7 +47,7 @@ export function CreateTweet() {
             name="description"
             id="description"
             className="block w-full resize-none border-0 py-0 pt-2.5 placeholder-gray-500 focus:ring-0 sm:text-sm"
-            placeholder="Write a description..."
+            placeholder="Write your tweet..."
             defaultValue={""}
             onChange={(e) => setText(e.target.value)}
           />
@@ -72,7 +72,7 @@ export function CreateTweet() {
             <div className="ml-auto flex-shrink-0">
               <button
                 type="submit"
-                className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="inline-flex items-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Tweet
               </button>
