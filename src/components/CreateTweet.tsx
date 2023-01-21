@@ -38,7 +38,7 @@ export function CreateTweet() {
     <>
       {error && JSON.stringify(error)}
       <form className="relative" onSubmit={handleSubmit}>
-        <div className="overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500">
+        <div className="focus-within:ring-slate-00 overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-slate-200 focus-within:ring-1">
           <label htmlFor="description" className="sr-only">
             Description
           </label>
@@ -72,7 +72,7 @@ export function CreateTweet() {
             <div className="ml-auto flex-shrink-0">
               <button
                 type="submit"
-                className="inline-flex items-center rounded-md border border-transparent bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="inline-flex items-center rounded-md border border-slate-500 bg-white px-4 py-2 text-sm font-medium text-slate-800 text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
               >
                 Tweet
               </button>
